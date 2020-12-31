@@ -110,7 +110,7 @@
               </ui:Target>
             </ui:CloseApplication.Target>
           </ui:CloseApplication>
-          <ui:InvokePowerShell x:TypeArguments="x:String" ContinueOnError="{x:Null}" CommandText="shutdown -s -t 60" DisplayName="Turn Off PC" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="InvokePowerShell`1_1" IsScript="True" />
+          <ui:InvokePowerShell x:TypeArguments="x:String" ContinueOnError="{x:Null}" CommandText="shutdown -s -t 120" DisplayName="Turn Off PC" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="InvokePowerShell`1_1" IsScript="True" />
         </Sequence>
       </If.Then>
     </If>
